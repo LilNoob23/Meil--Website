@@ -2,7 +2,7 @@ function App() {
 
   return (
     <div className="App">
-      HOLI :D
+      HOLI :D, boli :D
     </div>
   )
 }
