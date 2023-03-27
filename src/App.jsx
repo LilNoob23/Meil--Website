@@ -2,7 +2,7 @@ function App() {
 
   return (
     <div className="App">
-      HOLI :D, boli :D
+      HOLI desde una mac prrona
     </div>
   )
 }
