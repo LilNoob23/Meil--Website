@@ -1,8 +1,13 @@
+import { Footer, Header, Home, Social } from "./modules"
+
 function App() {
 
   return (
-    <div className="App">
-      HOLI desde una mac prrona
+    <div className="app">
+      <Header />
+      <Home />
+      <Social />
+      <Footer />
     </div>
   )
 }

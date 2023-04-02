@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+.header-options ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-options ul li {
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-options ul li::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease-out;
+}
+
+.header-options ul li:hover::before {
+    width: 100%;
+}
