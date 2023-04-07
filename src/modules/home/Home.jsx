@@ -1,3 +1,4 @@
+import Contact from '../contact/contact'
 import './home.css'
 
 function Home() {
@@ -12,9 +13,7 @@ function Home() {
             <section>
                 <h2>ABOUT SECTION</h2>
             </section>
-            <section>
-                <h2>CONTACT SECTION</h2>
-            </section>
+            <Contact />
         </div>
     )
 }

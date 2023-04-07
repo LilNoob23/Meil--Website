@@ -1,5 +1,8 @@
 body {
-    --primary-color: rgb(8, 137, 149);
+    --primary-color: rgb(32, 36, 38);
+    --secondary-color: rgb(37, 142, 195);
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 * {
@@ -14,6 +17,6 @@ ul {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
