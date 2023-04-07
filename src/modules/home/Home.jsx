@@ -1,4 +1,4 @@
-import {Contact, About} from '../index'
+import {Contact, About} from '../index.js'
 import './home.css'
 
 function Home() {
