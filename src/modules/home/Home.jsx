@@ -1,5 +1,4 @@
-import About from '../About/About'
-import Contact from '../contact/contact'
+import {Contact, About} from '../index'
 import './home.css'
 
 function Home() {
