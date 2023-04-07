@@ -1,79 +1,80 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
 }
 
 .header-options ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
 }
 
 .header-options ul li,
 .default ul li {
-    position: relative;
-    text-decoration: none;
-    cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .header-options ul li::before,
 .default ul li::before {
-    content: "";
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 0%;
-    height: 2px;
-    background-color: black;
-    transition: width 0.3s ease-out;
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease-out;
 }
 
 .header-options ul li:hover::before,
 .default ul li:hover::before {
-    width: 100%;
+  width: 100%;
 }
 
 .menu-icon {
-    display: none;
+  display: none;
 }
-.default{
+.default {
   position: absolute;
   background-color: white;
   top: 0;
   left: 0;
   right: 0;
   height: 100vh;
+  z-index: 1000;
   transform: translateX(100%);
-  transition: 300ms all;
+  transition: 200ms all;
 }
 @media (max-width: 600px) {
   .header-options ul {
     display: none;
   }
-  
+
   .menu-icon {
     display: block;
     cursor: pointer;
   }
-  .show-modal{
-      transform: translateX(0);
-      display: grid;
-      grid-template-rows: 80px max-content;
-    }
-    .show-modal ul{
-      height: calc(100vh - 80px);
-    }
-    .close-container{
-      display: flex;
-      justify-content: flex-end;
-      padding: 1rem 1rem 0 0;
-    }
-    .show-modal ul li{
-      font-size: 2rem;
-      text-align: center;
-      padding: 1rem;
-   }
+  .show-modal {
+    transform: translateX(0);
+    display: grid;
+    grid-template-rows: 80px max-content;
+  }
+  .show-modal ul {
+    height: calc(100vh - 80px);
+  }
+  .close-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 1rem 0 0;
+  }
+  .show-modal ul li {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+  }
 }

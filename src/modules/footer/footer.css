@@ -1,6 +1,7 @@
 footer{
   background-color: var(--primary-color);
   padding-top: 120px;
+  display: block;
 }
 .footer-content{
   display: flex;
@@ -12,4 +13,12 @@ footer{
   font-size: .9rem;
   opacity: .5;
   color: white;
+}
+
+@media (max-width: 600px) {
+  .footer-content{
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 60px;
+  }
 }
