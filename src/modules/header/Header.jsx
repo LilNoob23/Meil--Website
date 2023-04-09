@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   const [showModal, setShowModal] = useState(false);
-  console.log("🏝️ ~ Header ~ showModal:", showModal)
+  console.log("🏝️ ~ Header ~ showModal:", showModal);
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 600) {
@@ -28,7 +28,7 @@ function Header() {
             <Link to="/">Inicio</Link>
           </li>
           <li>
-          <Link to="/producciones-artisticas">Producciones artisticas</Link>
+            <Link to="/producciones-artisticas">Producciones artisticas</Link>
           </li>
           <li>
             <Link to="/productos">Productos</Link>
@@ -52,12 +52,18 @@ function Header() {
             onClick={() => setShowModal(false)}
           />
         </div>
-          <ul>
-            <li>Sobre mí</li>
-            <li>Producciones artísticas</li>
-            <li>Productos</li>
-          </ul>
-        </div>
+        <ul>
+          <li>
+            <Link to="/">Inicio</Link>
+          </li>
+          <li>
+            <Link to="/producciones-artisticas">Producciones artisticas</Link>
+          </li>
+          <li>
+            <Link to="/productos">Productos</Link>
+          </li>
+        </ul>
+      </div>
     </header>
   );
 }
