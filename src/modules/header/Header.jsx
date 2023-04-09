@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [showModal, setShowModal] = useState(false);
@@ -18,14 +19,20 @@ function Header() {
 
   return (
     <header className="container">
-      <div>
+      <div className="fade-in">
         <img src="" alt="Meilin logo" width={100} />
       </div>
-      <div className="header-options">
+      <div className="header-options fade-in">
         <ul>
-          <li>Sobre mí</li>
-          <li>Producciones artísticas</li>
-          <li>Productos</li>
+          <li>
+            <Link to="/">Inicio</Link>
+          </li>
+          <li>
+          <Link to="/producciones-artisticas">Producciones artisticas</Link>
+          </li>
+          <li>
+            <Link to="/productos">Productos</Link>
+          </li>
         </ul>
       </div>
       <img

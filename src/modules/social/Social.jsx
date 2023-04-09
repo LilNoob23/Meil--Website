@@ -1,7 +1,7 @@
 import './social.css'
 function Social() {
     return (
-        <div className="social">
+        <div className="social translate-y">
             <div>
                 <img src='/icons/instagram.svg' width={30} alt="instagram" />
             </div>

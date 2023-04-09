@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "img": "https://images.pexels.com/photos/3779191/pexels-photo-3779191.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "The best way to learn is to do",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl sit amet aliquam luctus, nunc odio lacinia mauris, vitae aliquam nisl nisl sit amet nisl. Sed euismod, nisl sit amet aliquam luctus, nunc odio lacinia mauris, vitae aliquam nisl nisl sit amet nisl.",
+      "type": "1"
+    },
+    {
+      "img": "https://images.pexels.com/photos/1269968/pexels-photo-1269968.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "The best way to learn is to do",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl sit amet aliquam luctus, nunc odio lacinia mauris, vitae aliquam nisl nisl sit amet nisl. Sed euismod, nisl sit amet aliquam luctus, nunc odio lacinia mauris, vitae aliquam nisl nisl sit amet nisl.",
+      "type": "2"
+    },
+    {
+      "img": "https://images.pexels.com/photos/16173118/pexels-photo-16173118.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "title": "The best way to learn is to do",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl sit amet aliquam luctus, nunc odio lacinia mauris, vitae aliquam nisl nisl sit amet nisl. Sed euismod, nisl sit amet aliquam luctus, nunc odio lacinia mauris, vitae aliquam nisl nisl sit amet nisl.",
+      "type": "3"
+    },
+    {
+      "img": "https://images.pexels.com/photos/1269968/pexels-photo-1269968.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "The best way to learn is to do",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl sit amet aliquam luctus, nunc odio lacinia mauris, vitae aliquam nisl nisl sit amet nisl. Sed euismod, nisl sit amet aliquam luctus, nunc odio lacinia mauris, vitae aliquam nisl nisl sit amet nisl.",
+      "type": "2"
+    },
+    {
+      "img": "https://images.pexels.com/photos/3779191/pexels-photo-3779191.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "The best way to learn is to do",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl sit amet aliquam luctus, nunc odio lacinia mauris, vitae aliquam nisl nisl sit amet nisl. Sed euismod, nisl sit amet aliquam luctus, nunc odio lacinia mauris, vitae aliquam nisl nisl sit amet nisl.",
+      "type": "1"
+    },
+    {
+      "img": "https://images.pexels.com/photos/16173118/pexels-photo-16173118.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "title": "The best way to learn is to do",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl sit amet aliquam luctus, nunc odio lacinia mauris, vitae aliquam nisl nisl sit amet nisl. Sed euismod, nisl sit amet aliquam luctus, nunc odio lacinia mauris, vitae aliquam nisl nisl sit amet nisl.",
+      "type": "3"
+    }
+  ]
+}
