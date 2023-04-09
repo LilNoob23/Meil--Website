@@ -1,21 +1,23 @@
-import {
-  createBrowserRouter
-} from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import { Home, Projects } from "./pages";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>
+    element: <Home />,
   },
   {
     path: "/producciones-artisticas",
-    element:  <Projects/>
+    element: <Projects />,
   },
   {
     path: "/productos",
-    element:  <Projects/>
+    element: <Projects />,
+  },
+  {
+    path: "*",
+    element: <Home />,
   },
 ]);
 
-export default router
+export default router;
