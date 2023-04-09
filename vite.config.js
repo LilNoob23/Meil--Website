@@ -1,16 +1,8 @@
-import { defineConfig, splitVendorChunkPlugin } from "vite";
+import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), splitVendorChunkPlugin()],
-  build: {
-    rollupOptions: {
-      input: {
-        main: path.join(__dirname, "pages/home/index.html"),
-        admin: path.join(__dirname, "pages/projects/index.html"),
-      },
-    },
-  },
+  plugins: [react()],
 });
