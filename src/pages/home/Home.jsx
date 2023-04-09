@@ -1,10 +1,10 @@
-import {Contact, About} from '../index.js'
+import {Contact, About, Layout} from '../../modules/index.js'
 import './home.css'
 
 function Home() {
 
     const Main = () => {
-        return <main>
+        return <main className='fade-in'>
         <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
         <div className="name">
             <h1>MEILIN GUERRERO</h1>
@@ -13,11 +13,13 @@ function Home() {
     </main>
     }
     return (
-        <div className='home'>
-            <Main/>
-            <About/>
-            <Contact />
-        </div>
+        <Layout>
+            <div className='home'>
+                <Main/>
+                <About/>
+                <Contact />
+            </div>
+        </Layout>
     )
 }
 
