@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 function Header() {
   const [showModal, setShowModal] = useState(false);
-  console.log("🏝️ ~ Header ~ showModal:", showModal);
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 600) {
